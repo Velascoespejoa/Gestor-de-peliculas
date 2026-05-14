@@ -48,11 +48,12 @@ body {
 li {
 	list-style: none;
 }
-.svgs{
+
+/* .svgs{
  	fill: white;
  	height: 30px;
  	width: 30px;
-}
+} */
 
 .card{
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
