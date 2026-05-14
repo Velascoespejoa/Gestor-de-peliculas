@@ -1,0 +1,81 @@
+body {
+ 	min-height: 100vh;
+   	margin: 0;
+   	background: linear-gradient(
+    	to bottom,           
+       #353949,
+       #626c87
+   	);
+}
+.navbar-gradient {
+    position: relative;
+}
+
+.navbar-gradient::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+
+    background: linear-gradient(to bottom,  lightblue,blue);
+}
+.perfil-img{
+	border: 1px solid black;
+	width: 35px;
+    height: 35px;
+	border-radius: 100px;
+	padding-bottom:0px;
+	box-shadow: 1px 1px black;
+}
+.logo{
+	height: 3rem;
+	width: 3rem;	
+}
+ #nav-buscador{
+ 	background: linear-gradient(
+	    to right,
+	    #2e323a 0%,
+	    #2e323a 80%,
+	    #a0a9b8 100%
+	    );        
+}
+#nav-buscador::placeholder{
+	color:white;
+}
+
+li {
+	list-style: none;
+}
+.svgs{
+ 	fill: white;
+ 	height: 30px;
+ 	width: 30px;
+}
+
+.card{
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	
+	width: 11rem !important; 
+	height: 17rem !important;
+    box-shadow:
+        0 0 1px rgba(0, 255, 255, 0.5),
+        0 0 10px rgba(0, 255, 255, 0.4),
+        0 0 10px rgba(0, 255, 255, 0.3);  
+}
+
+.card:hover{
+	transform: scale(1.05);
+	 box-shadow:
+        0 0 1px #FFD580,
+        0 0 10px #FFD580,
+        0 0 10px #FFD580;  
+        
+	cursor: pointer;
+}
+.card img{
+	
+	height: 100%;	
+
+}
