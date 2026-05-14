@@ -9,6 +9,7 @@ body {
 }
 .navbar-gradient {
     position: relative;
+	background-color: #353949;
 }
 
 .navbar-gradient::after {
