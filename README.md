@@ -1,3 +1,5 @@
+Web de reseñas de peliculas indies.
+
 Dirección web: 
 http://142.93.235.202/
 
